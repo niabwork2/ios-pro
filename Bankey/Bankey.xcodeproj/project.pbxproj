@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8C30CE1927803B4B00F5CEE4 /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C30CE1827803B4B00F5CEE4 /* NSNotificationName.swift */; };
 		8C30CE1B27803D3A00F5CEE4 /* UITextField+SecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C30CE1A27803D3900F5CEE4 /* UITextField+SecureToggle.swift */; };
+		8C30CE1E278053CA00F5CEE4 /* ShakeyBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C30CE1D278053CA00F5CEE4 /* ShakeyBellView.swift */; };
 		8C387C8D277EB1CE00968F99 /* AccountSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C387C8C277EB1CE00968F99 /* AccountSummaryCell.swift */; };
 		8C387C8F277EF50500968F99 /* Decimal+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C387C8E277EF50500968F99 /* Decimal+Utils.swift */; };
 		8C387C91277EF56000968F99 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C387C90277EF56000968F99 /* CurrencyFormatter.swift */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		8C30CE1827803B4B00F5CEE4 /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
 		8C30CE1A27803D3900F5CEE4 /* UITextField+SecureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+SecureToggle.swift"; sourceTree = "<group>"; };
+		8C30CE1D278053CA00F5CEE4 /* ShakeyBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeyBellView.swift; sourceTree = "<group>"; };
 		8C387C8C277EB1CE00968F99 /* AccountSummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryCell.swift; sourceTree = "<group>"; };
 		8C387C8E277EF50500968F99 /* Decimal+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decimal+Utils.swift"; sourceTree = "<group>"; };
 		8C387C90277EF56000968F99 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
@@ -83,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C30CE1C2780537F00F5CEE4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8C30CE1D278053CA00F5CEE4 /* ShakeyBellView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		8C387C8A277EB18800968F99 /* Header */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +168,7 @@
 				8CE677CD277C5CFD007DA708 /* Onboarding */,
 				8CD4A4EF277DA9CA006588AB /* AccountSummary */,
 				8C986AFE277D92D600DF04B4 /* Utils */,
+				8C30CE1C2780537F00F5CEE4 /* Components */,
 				8CE677C8277C368E007DA708 /* Files */,
 			);
 			path = Bankey;
@@ -312,6 +323,7 @@
 				8C387C8F277EF50500968F99 /* Decimal+Utils.swift in Sources */,
 				8C30CE1927803B4B00F5CEE4 /* NSNotificationName.swift in Sources */,
 				8CE677B9277C32C2007DA708 /* LoginViewController.swift in Sources */,
+				8C30CE1E278053CA00F5CEE4 /* ShakeyBellView.swift in Sources */,
 				8C387C8D277EB1CE00968F99 /* AccountSummaryCell.swift in Sources */,
 				8CE677D1277C6459007DA708 /* OnboardingViewController.swift in Sources */,
 				8C986B04277D9B6300DF04B4 /* MainViewController.swift in Sources */,
